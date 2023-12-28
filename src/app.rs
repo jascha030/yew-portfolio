@@ -4,7 +4,7 @@ use yew::prelude::*;
 pub fn app() -> Html {
     html! {
         <main>
-            <h1>{ "Test" }</h1>
+            <h1 class={classes!("text-lg")}>{ "Test" }</h1>
         </main>
     }
 }
